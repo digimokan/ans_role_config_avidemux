@@ -54,7 +54,6 @@ Install and configure the avidemux video editing application.
        - name: "Install and configure the avidemux video editing application"
          ansible.builtin.include_role:
            name: ans_role_config_avidemux
-           public: true
          vars:
            # Note: for OSs that use a flatpak, supply the flatpak cmd
            flatpak_main_cmd: "flatpak"
