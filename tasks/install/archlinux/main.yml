@@ -1,0 +1,7 @@
+- name: "Install the 'avidemux-qt' application package"
+  ansible.builtin.package:
+    name: avidemux-qt
+    state: present
+  become: true
+  become_user: root
+

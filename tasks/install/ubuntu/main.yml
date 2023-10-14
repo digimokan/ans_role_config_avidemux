@@ -1,0 +1,9 @@
+- name: "Install the 'org.avidemux.Avidemux' flatpak package"
+  community.general.flatpak:
+    name:  org.avidemux.Avidemux
+    remote: flathub
+    executable: "{{ flatpak_main_cmd }}"
+    state: present
+  become: true
+  become_user: root
+
