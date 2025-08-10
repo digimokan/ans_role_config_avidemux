@@ -1,3 +1,3 @@
 # main command to run to execute avidemux
-avidemux_main_cmd: "avidemux_qt5"
+avidemux_main_cmd: "avidemux3_qt5"
 
